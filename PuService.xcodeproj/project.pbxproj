@@ -12,6 +12,7 @@
 		2E0EC04221F97A9800CD1DD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E0EC04021F97A9800CD1DD3 /* Main.storyboard */; };
 		2E0EC04421F97A9900CD1DD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E0EC04321F97A9900CD1DD3 /* Assets.xcassets */; };
 		2E0EC04721F97A9900CD1DD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E0EC04521F97A9900CD1DD3 /* LaunchScreen.storyboard */; };
+		2E0EC04F21F998BD00CD1DD3 /* RegisterViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0EC04E21F998BD00CD1DD3 /* RegisterViewControler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2E0EC04321F97A9900CD1DD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E0EC04621F97A9900CD1DD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E0EC04821F97A9900CD1DD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E0EC04E21F998BD00CD1DD3 /* RegisterViewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewControler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				2E0EC03C21F97A9800CD1DD3 /* AppDelegate.swift */,
 				2E0EC03E21F97A9800CD1DD3 /* ViewController.swift */,
+				2E0EC04E21F998BD00CD1DD3 /* RegisterViewControler.swift */,
 				2E0EC04021F97A9800CD1DD3 /* Main.storyboard */,
 				2E0EC04321F97A9900CD1DD3 /* Assets.xcassets */,
 				2E0EC04521F97A9900CD1DD3 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E0EC03F21F97A9800CD1DD3 /* ViewController.swift in Sources */,
+				2E0EC04F21F998BD00CD1DD3 /* RegisterViewControler.swift in Sources */,
 				2E0EC03D21F97A9800CD1DD3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
