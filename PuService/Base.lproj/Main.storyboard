@@ -131,9 +131,39 @@
                                                 <segue destination="BYZ-38-t0r" kind="show" id="SmK-EY-oNr"/>
                                             </connections>
                                         </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Upload" image="Upload" id="1hK-DS-xOR">
+                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name :" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QIW-Cj-7Wc">
+                                <rect key="frame" x="30.666666666666657" y="99" width="353" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="353" id="tJy-Dm-C0o"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="User :" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fOm-jF-vmW">
+                                <rect key="frame" x="30.666666666666657" y="137" width="353" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="353" id="ORy-qv-KRa"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Pass :" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rYj-77-TYC">
+                                <rect key="frame" x="30.666666666666657" y="175" width="353" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="353" id="ifV-w5-ush"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -143,9 +173,15 @@
                             <constraint firstItem="9Fa-4D-mu6" firstAttribute="leading" secondItem="9e8-i9-UbA" secondAttribute="leading" id="Dlg-oq-W12"/>
                             <constraint firstItem="4fc-kY-wh2" firstAttribute="trailing" secondItem="9e8-i9-UbA" secondAttribute="trailing" id="F5R-jV-YVn"/>
                             <constraint firstItem="9Fa-4D-mu6" firstAttribute="top" secondItem="9e8-i9-UbA" secondAttribute="top" constant="11" id="GxP-z5-Wxb"/>
+                            <constraint firstItem="rYj-77-TYC" firstAttribute="top" secondItem="fOm-jF-vmW" secondAttribute="bottom" constant="8" id="HpV-aO-6Sd"/>
                             <constraint firstItem="4fc-kY-wh2" firstAttribute="centerX" secondItem="thW-YD-S0D" secondAttribute="centerX" id="JXt-QO-dX0"/>
                             <constraint firstItem="4fc-kY-wh2" firstAttribute="leading" secondItem="9e8-i9-UbA" secondAttribute="leading" id="Jed-cV-W2O"/>
+                            <constraint firstItem="rYj-77-TYC" firstAttribute="centerX" secondItem="thW-YD-S0D" secondAttribute="centerX" id="POl-H2-tWY"/>
                             <constraint firstItem="9Fa-4D-mu6" firstAttribute="centerX" secondItem="thW-YD-S0D" secondAttribute="centerX" id="YqY-j3-iZl"/>
+                            <constraint firstItem="fOm-jF-vmW" firstAttribute="top" secondItem="QIW-Cj-7Wc" secondAttribute="bottom" constant="8" id="iX3-5F-rHD"/>
+                            <constraint firstItem="fOm-jF-vmW" firstAttribute="centerX" secondItem="thW-YD-S0D" secondAttribute="centerX" id="rNX-Oi-lsh"/>
+                            <constraint firstItem="QIW-Cj-7Wc" firstAttribute="top" secondItem="4fc-kY-wh2" secondAttribute="bottom" constant="35" id="uFB-ra-YUr"/>
+                            <constraint firstItem="QIW-Cj-7Wc" firstAttribute="centerX" secondItem="thW-YD-S0D" secondAttribute="centerX" id="x6e-Po-Ya1"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="9e8-i9-UbA"/>
                     </view>
@@ -157,6 +193,7 @@
     </scenes>
     <resources>
         <image name="BackArrow" width="108" height="108"/>
+        <image name="Upload" width="108" height="108"/>
         <image name="logo" width="170.66667175292969" height="170.66667175292969"/>
         <image name="wallpaper" width="945" height="1415.6666259765625"/>
     </resources>
