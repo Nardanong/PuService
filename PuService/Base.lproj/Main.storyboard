@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HG8-KX-afv">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -133,6 +133,9 @@
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" title="Upload" image="Upload" id="1hK-DS-xOR">
                                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <connections>
+                                                <action selector="uploadButton:" destination="HG8-KX-afv" id="iTO-Qw-gvX"/>
+                                            </connections>
                                         </barButtonItem>
                                     </navigationItem>
                                 </items>
@@ -185,6 +188,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="9e8-i9-UbA"/>
                     </view>
+                    <connections>
+                        <outlet property="UserTextField" destination="fOm-jF-vmW" id="ojp-NV-UzN"/>
+                        <outlet property="nameTextField" destination="QIW-Cj-7Wc" id="Fqh-7W-i4X"/>
+                        <outlet property="passTextFiled" destination="rYj-77-TYC" id="KhK-YQ-uMc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="awg-81-rcG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
