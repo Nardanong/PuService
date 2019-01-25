@@ -14,6 +14,11 @@ class MyConstant  {
         let result = "https://www.androidthai.in.th/hit/addUserPu.php?isAdd=true&Name=\(name)&User=\(user)&Password=\(password)"
         return result
     }
+    func findJSONWhereUser(user:String) -> String {
+        let result = "https://www.androidthai.in.th/hit/getUserWhere1Pu.php?isAdd=true&User=\(user)"
+        return result
+        
+    }
     
     
 }//MyConstant Class
