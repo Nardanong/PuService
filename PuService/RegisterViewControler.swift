@@ -50,7 +50,7 @@ class RegisterViewControler: UIViewController {
     
     @IBAction func uploadButton(_ sender: UIBarButtonItem) {
         
-//        Get value from textfield
+//      Get value from textfield
         name = nameTextField.text
         user = UserTextField.text
         pasword = passTextFiled.text
