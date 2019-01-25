@@ -9,12 +9,23 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    
+    @IBOutlet weak var UserTextField: UITextField!
+    
+    @IBOutlet weak var PasswordTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    } // Main Mothod
+    
+    @IBAction func LoginButton(_ sender: UIButton) {
+        
+        
+        
     }
+    
 
-
-}
+}//Main Class
 

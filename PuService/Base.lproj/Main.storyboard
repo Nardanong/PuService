@@ -76,7 +76,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="HG8-KX-afv" kind="show" id="Xxv-Q3-FsS"/>
+                                    <segue destination="HG8-KX-afv" kind="show" identifier="GoRegister" id="Xxv-Q3-FsS"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -101,6 +101,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <segue destination="ipD-6i-IQF" kind="show" identifier="GoService" id="2Eu-QW-g39"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -197,6 +200,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="awg-81-rcG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="744.92753623188412" y="19.565217391304348"/>
+        </scene>
+        <!--Service-->
+        <scene sceneID="ErZ-5e-mj2">
+            <objects>
+                <viewController title="Service" id="ipD-6i-IQF" customClass="SerivceViewController" customModule="PuService" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="izT-LG-z5V">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="WVl-O6-EdE"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qgQ-cV-NWA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="48" y="745"/>
         </scene>
     </scenes>
     <resources>

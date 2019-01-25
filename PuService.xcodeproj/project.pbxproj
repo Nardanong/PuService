@@ -14,6 +14,7 @@
 		2E0EC04721F97A9900CD1DD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E0EC04521F97A9900CD1DD3 /* LaunchScreen.storyboard */; };
 		2E0EC04F21F998BD00CD1DD3 /* RegisterViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0EC04E21F998BD00CD1DD3 /* RegisterViewControler.swift */; };
 		2E10C9DE21FAB147009433FF /* MyConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E10C9DD21FAB147009433FF /* MyConstant.swift */; };
+		2E10C9E021FAC04C009433FF /* SerivceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E10C9DF21FAC04C009433FF /* SerivceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		2E0EC04821F97A9900CD1DD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E0EC04E21F998BD00CD1DD3 /* RegisterViewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewControler.swift; sourceTree = "<group>"; };
 		2E10C9DD21FAB147009433FF /* MyConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyConstant.swift; sourceTree = "<group>"; };
+		2E10C9DF21FAC04C009433FF /* SerivceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerivceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				2E0EC04E21F998BD00CD1DD3 /* RegisterViewControler.swift */,
 				2E10C9DD21FAB147009433FF /* MyConstant.swift */,
 				2E0EC04021F97A9800CD1DD3 /* Main.storyboard */,
+				2E10C9DF21FAC04C009433FF /* SerivceViewController.swift */,
 				2E0EC04321F97A9900CD1DD3 /* Assets.xcassets */,
 				2E0EC04521F97A9900CD1DD3 /* LaunchScreen.storyboard */,
 				2E0EC04821F97A9900CD1DD3 /* Info.plist */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E0EC03F21F97A9800CD1DD3 /* ViewController.swift in Sources */,
+				2E10C9E021FAC04C009433FF /* SerivceViewController.swift in Sources */,
 				2E0EC04F21F998BD00CD1DD3 /* RegisterViewControler.swift in Sources */,
 				2E0EC03D21F97A9800CD1DD3 /* AppDelegate.swift in Sources */,
 				2E10C9DE21FAB147009433FF /* MyConstant.swift in Sources */,
