@@ -213,13 +213,27 @@
                     <view key="view" contentMode="scaleToFill" id="izT-LG-z5V">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="aiv-43-3Rk">
+                                <rect key="frame" x="0.0" y="35" width="414" height="701"/>
+                            </mapView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="aiv-43-3Rk" firstAttribute="leading" secondItem="WVl-O6-EdE" secondAttribute="leading" id="0Fi-EP-27P"/>
+                            <constraint firstItem="aiv-43-3Rk" firstAttribute="trailing" secondItem="WVl-O6-EdE" secondAttribute="trailing" id="KZy-hb-3Kx"/>
+                            <constraint firstItem="aiv-43-3Rk" firstAttribute="bottom" secondItem="WVl-O6-EdE" secondAttribute="bottom" id="VTS-rv-MnO"/>
+                            <constraint firstItem="aiv-43-3Rk" firstAttribute="top" secondItem="WVl-O6-EdE" secondAttribute="top" constant="15" id="ibw-lG-VWR"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="WVl-O6-EdE"/>
                     </view>
+                    <connections>
+                        <outlet property="myMapView" destination="aiv-43-3Rk" id="u6I-Ql-Jld"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qgQ-cV-NWA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="48" y="745"/>
+            <point key="canvasLocation" x="47.826086956521742" y="744.29347826086962"/>
         </scene>
     </scenes>
     <resources>

@@ -54,7 +54,7 @@ class ViewController: UIViewController {
                 
                 print("jsonArray ==> \(jsonArray)")
                 
-                guard let jsonDictionary:Dictionary = jsonArray[0] else {
+                guard let jsonDictionary:Dictionary = jsonArray[0]  else {
                     return
                 }
                 print("jsonDictionary ==> \(jsonDictionary)")
