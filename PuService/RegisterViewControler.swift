@@ -36,6 +36,37 @@ class RegisterViewControler: UIViewController {
         let urlPHP:String = myConstant.findURLaddUser(name: name, user: user, password: password)
         print("URLPHP ==> \(urlPHP)")
         
+//        Upload Process
+        let url = URL(string: urlPHP)
+        let request = NSMutableURLRequest(url: url!)
+        let task = URLSession.shared.dataTask(with: request as URLRequest){ data, response, error in
+            
+            if error != nil {
+                print("Have Error...")
+            }else{
+//                Recive data
+                if let testData = data{
+                    let canReadData = NSString(data: testData, encoding: String.Encoding.utf8.rawValue)
+                    print("can Read data ==> \(String(describing: canReadData))")
+                    
+                    let myResponse: String = canReadData! as String
+                    
+                    if Bool(myResponse)! {
+                        print("Success Upload")
+                        
+//                        Process pop
+                        DispatchQueue.main.async {
+                            self.performSegue(withIdentifier: "Backmain", sender: self)
+                        }
+                        
+                    }else{
+                        print("Cannot Upload")
+                    }
+                }
+            }
+        } //End Task
+        task.resume()
+        
     }
     
     

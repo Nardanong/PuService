@@ -128,7 +128,7 @@
                                         <barButtonItem key="leftBarButtonItem" title="Item" image="BackArrow" id="N8x-U2-hU1">
                                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <connections>
-                                                <segue destination="BYZ-38-t0r" kind="show" id="SmK-EY-oNr"/>
+                                                <segue destination="BYZ-38-t0r" kind="show" identifier="Backmain" id="SmK-EY-oNr"/>
                                             </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" title="Upload" image="Upload" id="1hK-DS-xOR">
